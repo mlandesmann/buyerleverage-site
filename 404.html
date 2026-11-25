@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found | Buyerleverage</title>
+<meta name="description" content="Page not found.">
+<meta property="og:title" content="Page not found | Buyerleverage">
+<meta property="og:description" content="Page not found.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BuyerLeverage">
+<link rel="icon" href="/assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="topbar"><a href="/">BuyerLeverage: Technologies that allow consumers to benefit from and control their communication and information.</a></div>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="/"><img src="/assets/img/logo.png" alt="BuyerLeverage" width="195" height="39"></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main menu">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li class="has-sub"><button class="parent" aria-haspopup="true" aria-expanded="false">About Us</button>
+          <ul class="sub">
+            <li><a href="/mark-landesmann/">Mark Landesmann</a></li>
+            <li><a href="/partners/">Partners</a></li>
+          </ul>
+        </li>
+        <li><a href="/anti-spam/">Anti-Spam</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="banner"><h1>Page not found</h1><svg viewBox="0 0 1000 65" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="vg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#02050d"/><stop offset="1" stop-color="#0e2e81"/></linearGradient></defs><polygon points="0,0 500,65 1000,0 1000,65 0,65" fill="url(#vg)"/></svg></section>
+<section class="page"><div class="wrap center"><p>Sorry, that page doesn't exist. <a href="/">Go to the home page</a>.</p></div></section>
+</main>
+<footer>
+  <nav class="footer-nav" aria-label="Footer menu">
+    <div class="wrap">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/mark-landesmann/">Mark Landesmann</a></li>
+        <li><a href="/partners/">Partners</a></li>
+        <li><a href="/anti-spam/">Anti-Spam</a></li>
+        <li><a href="https://scholar.google.com/citations?user=RRAG2tkAAAAJ&hl=en">Scholar</a></li>
+        <li><a href="https://www.linkedin.com/in/mark--landesmann/">LinkedIn</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="copyright"><div class="wrap"><p>&copy; BuyerLeverage</p></div></div>
+</footer>
+<script>
+(function () {
+  var t = document.querySelector('.nav-toggle'), n = document.getElementById('nav');
+  t.addEventListener('click', function () {
+    var o = n.classList.toggle('open'); t.setAttribute('aria-expanded', o);
+  });
+  var p = document.querySelector('.has-sub'), b = p.querySelector('.parent');
+  b.addEventListener('click', function (e) {
+    e.stopPropagation(); var o = p.classList.toggle('open'); b.setAttribute('aria-expanded', o);
+  });
+  document.addEventListener('click', function () { p.classList.remove('open'); b.setAttribute('aria-expanded', false); });
+})();
+</script>
+</body>
+</html>
